@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "modern_portfolio",
   "version": "1.0.0",
   "description": "Responsive Layout Portfolio",
   "main": "index.js",
@@ -7,5 +7,21 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Matao Designs",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MataoDesigns/modern_portfolio.git"
+  },
+  "keywords": [
+    "Responsive",
+    "Portfolio"
+  ],
+  "bugs": {
+    "url": "https://github.com/MataoDesigns/modern_portfolio/issues"
+  },
+  "homepage": "https://github.com/MataoDesigns/modern_portfolio#readme"
 }
