@@ -1,3 +1,3 @@
 # modern_portfolio
 
-testing again and again
+This is a test using git in vs code as well as node.js and scss to develop a modern looking portfolio website.
