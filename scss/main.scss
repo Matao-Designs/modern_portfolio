@@ -108,6 +108,17 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+     h3 {
+       font-weight: bold;
+       color: $secondary-color;
+       margin-bottom: 0;
+       padding-bottom: 0;
+     }
+
+     h5 {
+       margin-top: 0;
+     }
   }
 }
 
