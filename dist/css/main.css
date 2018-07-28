@@ -189,6 +189,13 @@ main {
       padding-bottom: 0; }
     .about-info .job h5 {
       margin-top: 0; }
+  .about-info .skills_left {
+    width: 50%;
+    padding: 10px; }
+  .about-info .skills_right {
+    float: right;
+    width: 50%;
+    padding: 10px; }
 
 .projects {
   display: grid;
