@@ -1,0 +1,57 @@
+.modal_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  width: 50vw;
+  left: 25vw;
+  min-height: 50vh;
+  top: 25vh;
+  background: set-text-color($primary-color);
+  border-radius: 0.5rem;
+
+  .modal-top-bottom {
+    background: darken(set-text-color($primary-color), 3);
+    min-height: 50px;
+    width: 100%;
+  }
+
+  .modal-header {
+    @extend .modal-top-bottom;
+    border-bottom: 3px solid $secondary-color;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+    .close_modal {
+      float: right;
+      align-items: center;
+      color: $secondary-color;
+      padding-right: 7px;
+      margin-top: 7px;
+      cursor: pointer;
+    }
+
+    .projectName {
+      font-weight: 300;
+      color: $primary-color;
+      font-size: 2rem;
+    }
+  }
+
+  .modal-footer {
+    @extend .modal-top-bottom;
+    position: absolute;
+    bottom: 0;
+    border-top: 3px solid $secondary-color;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+}

@@ -4,6 +4,7 @@ const menu = document.querySelector(".menu");
 const menuBranding = document.querySelector(".menu-branding");
 const menuNav = document.querySelector(".menu-nav");
 const navItems = document.querySelectorAll(".nav-item");
+const modalBg = document.querySelector(".modal_bg");
 
 //Set Intial State of the Menu
 let showMenu = false;
@@ -29,3 +30,7 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+$(".view_project").click(function() {
+  let id = $(this).attr("id");
+});
