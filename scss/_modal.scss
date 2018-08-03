@@ -17,6 +17,8 @@
   top: 25vh;
   background: set-text-color($primary-color);
   border-radius: 0.5rem;
+  display: none;
+  z-index: 11;
 
   .modal-top-bottom {
     background: darken(set-text-color($primary-color), 3);
@@ -29,6 +31,10 @@
     border-bottom: 3px solid $secondary-color;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
+
+    .projectName {
+      margin-left: 10px;
+    }
 
     .close_modal {
       float: right;
@@ -53,5 +59,10 @@
     border-top: 3px solid $secondary-color;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+  }
+
+  .modal-body {
+    color: $primary-color;
+    padding: 10px;
   }
 }

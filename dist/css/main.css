@@ -109,7 +109,9 @@
   min-height: 50vh;
   top: 25vh;
   background: #ffffff;
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  display: none;
+  z-index: 11; }
   .modal .modal-top-bottom, .modal .modal-header, .modal .modal-footer {
     background: #f7f7f7;
     min-height: 50px;
@@ -118,6 +120,8 @@
     border-bottom: 3px solid #eece1a;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem; }
+    .modal .modal-header .projectName {
+      margin-left: 10px; }
     .modal .modal-header .close_modal {
       float: right;
       align-items: center;
@@ -135,6 +139,9 @@
     border-top: 3px solid #eece1a;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem; }
+  .modal .modal-body {
+    color: #444;
+    padding: 10px; }
 
 * {
   box-sizing: border-box; }
